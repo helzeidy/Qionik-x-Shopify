@@ -1,0 +1,216 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "description_max_width": 420,
+        "show_breadcrumb": true,
+        "breadcrumb_collection": "{{ collection.metafields.custom.parent_collections.value }}",
+        "flex_align": "align--middle-left",
+        "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "show_image": true,
+        "custom_image": "{{ collection.metafields.custom.collection_main_banner.value }}",
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "slider",
+        "card_style": "text",
+        "card_max_width": 120,
+        "card_gap": 20,
+        "title_size": 14,
+        "tabs_alignment": "left",
+        "text_show_count": false,
+        "text_all_collection": "{{ collection }}",
+        "text_all_label": "All",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
+        "color": "#200e13",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "default_open": false,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 24,
+        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_4cXRm9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_zpXcQt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "{{ collection.title }}",
+            "padding_bottom": 16
+          }
+        },
+        "heading_xgfk4f": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ collection.metafields.custom.rich_text_title.value }}",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_q4pPkW": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.rich_text_content | metafield_tag }}",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zpXcQt",
+        "heading_xgfk4f",
+        "text_q4pPkW"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-e23b9f31-588f-4979-b31d-259015c439c7",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_divider_MgkHay": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-e23b9f31-588f-4979-b31d-259015c439c7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_row_f3XpCf": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_yKpAfj": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Spain_d04fe72b-6d5e-4017-9482-9e70ec9ce475.svg",
+            "icon_size": 40,
+            "icon_color": "#545454",
+            "title": "Handcrafted in Spain",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Built on a single bench in Alicante by hands we know by name.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_FTtfWE": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-smile",
+            "image": "shopify://shop_images/Size_3987de2c-d7c3-4360-a8eb-09d10a85b1ce.svg",
+            "icon_size": 40,
+            "icon_color": "#461214",
+            "title": "BIG & WIDE Sizes Available",
+            "heading_font_size": "heading-medium",
+            "text": "<p>We cater to all sizes and widths, from 5 to 17 US, including half and wide sizes.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_VHAB6w": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Remake_57998cbf-1b2f-4d5c-b8c4-301065559b7c.svg",
+            "icon_size": 40,
+            "icon_color": "#545454",
+            "title": "Free remake guarantee",
+            "heading_font_size": "heading-medium",
+            "text": "<p>If the fit isn't right, we make it again — on us.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_emUtXR": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/World_cf991536-aa1f-4797-849e-ec8d393f4b37.svg",
+            "icon_size": 40,
+            "icon_color": "#545454",
+            "title": "Worldwide shipping",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Free, insured, tracked. Anywhere we can reach a doorstep.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_yKpAfj",
+        "icon_FTtfWE",
+        "icon_VHAB6w",
+        "icon_emUtXR"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "2",
+        "color_scheme": "scheme-e23b9f31-588f-4979-b31d-259015c439c7",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "section_rich_text_4cXRm9",
+    "section_divider_MgkHay",
+    "section_text_row_f3XpCf"
+  ]
+}
