@@ -110,7 +110,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/Firefly_gpt-image_-Macro_photography_of_flowing_dark_grey_hair_strands_intertwined_with_a_glass_molecul_64531.png",
+        "image_1": "shopify://shop_images/section1.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -130,7 +130,7 @@
         "heading_xcgEEW": {
           "type": "heading",
           "settings": {
-            "title": "Best Seller!",
+            "title": "The Ionic Repair Mask.",
             "heading_font_size": "heading-x-large",
             "heading_tag": "automatic"
           }
@@ -138,15 +138,15 @@
         "text_8gx3QR": {
           "type": "text",
           "settings": {
-            "text": "<p>Tell your brand's story through images.</p>",
+            "text": "<p>Engineered in France for professional-level performance.</p>",
             "text_font_size": "body-large"
           }
         },
         "button_QtYpAT": {
           "type": "button",
           "settings": {
-            "link_text": "View products",
-            "link": "shopify://products/classic-black-leather-oxford-shoes",
+            "link_text": "View product",
+            "link": "shopify://products/qionik-premium-repair-mask",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -162,18 +162,19 @@
       ],
       "name": "Image with product",
       "settings": {
+        "image_1": "shopify://shop_images/Artboard_13.png",
         "link": "",
-        "product": "classic-black-leather-oxford-shoes",
+        "product": "qionik-premium-repair-mask",
         "description": "",
         "text_font_size": "body-medium",
         "enable_quick_add": true,
-        "color_product_bg": "#f5f2ec",
-        "color_product_text": "#212121",
+        "color_product_bg": "#FFFFFF",
+        "color_product_text": "#1C1C1C",
         "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "four-fifty-height-hero--mobile",
         "flex_align_mobile": "align--middle-left-mobile",
-        "color_scheme": "scheme-025a5426-514e-4a02-9e15-80cab8125ad9",
+        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
         "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
