@@ -1,0 +1,542 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "show_shipping_policy": true,
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "{{ product.metafields.custom.size_chart.value }}",
+            "size_chart_style": "text",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "hide_selected_value": true,
+            "enable_size_scale": true,
+            "size_option_name": "Size",
+            "heading": "Scale",
+            "scales": "US, UK, EU, JP, KR",
+            "default_scale": "US",
+            "conversion_table": "US, UK, EU, JP, KR\n5, 4.5, 37.5, 23, 235\n5.5, 5, 38, 23.5, 235\n6, 5.5, 38.5, 24, 240\n6.5, 6, 39, 24.5, 245\n7, 6.5, 40, 25, 250\n7.5, 7, 40.5, 25.5, 255\n8, 7.5, 41, 26, 260\n8.5, 8, 42, 26.5, 265\n9, 8.5, 42.5, 27, 270\n9.5, 9, 43, 27.5, 275\n10, 9.5, 44, 28, 280\n10.5, 10, 44.5, 28.5, 285\n11, 10.5, 45, 29, 290\n11.5, 11, 45.5, 29.5, 295\n12, 11.5, 46, 30, 300\n12.5, 12, 47, 30.5, 305\n13, 12.5, 47.5, 31, 310\n13.5, 13, 48, 31.5, 315\n14, 13.5, 48.5, 32, 320\n14.5, 14, 49, 32.5, 325\n15, 14.5, 49.5, 33, 330\n15.5, 15, 50, 33.5, 335\n16, 15.5, 50.5, 34, 340\n16.5, 16, 51, 34.5, 345\n17, 16.5, 51.5, 35, 350",
+            "record_on_order": true,
+            "scale_property_name": "Scale",
+            "size_property_name": "Size",
+            "show_debug": false,
+            "padding_bottom": 16
+          }
+        },
+        "width_selector_JXMde6": {
+          "type": "width_selector",
+          "settings": {
+            "metafield_key": "custom.width_values",
+            "heading": "Width",
+            "property_name": "Width",
+            "default_value": "",
+            "paid_value": "Wide (EEE)",
+            "charge_product": "wide-eee",
+            "paid_value_2": "Wide (EE)",
+            "charge_product_2": "wide-ee",
+            "paid_value_3": "",
+            "charge_product_3": "",
+            "show_price_on_option": true,
+            "show_debug": false,
+            "padding_bottom": 16
+          }
+        },
+        "addon_mUmDKp": {
+          "type": "addon",
+          "settings": {
+            "addon_type": "configurable",
+            "title": "Add Matching Belt",
+            "description": "The matching belt will be manufactured and shipped together with the shoes. Artisans will decide the best design to match the shoes as closely as possible.",
+            "product": "matching-belt-test",
+            "show_image": false,
+            "price_text": "+$220",
+            "enable_text_input": true,
+            "text_label": "Initials",
+            "text_placeholder": "e.g. AHM",
+            "text_maxlength": 3,
+            "text_uppercase": true,
+            "text_required": true,
+            "error_text": "Please select the size and the buckle",
+            "stamp_on_product": true,
+            "visibility_metafield": "custom.matching_belt",
+            "show_debug": false,
+            "padding_bottom": 16
+          }
+        },
+        "addon_TWP3Lb": {
+          "type": "addon",
+          "settings": {
+            "addon_type": "toggle",
+            "title": "Initials, in the heel",
+            "description": "Type your initials (max 8 char) numbers [0 - 9], letters, white space or chars / - @ $ &",
+            "product": "heel-initials",
+            "show_image": true,
+            "price_text": "+$25",
+            "enable_text_input": true,
+            "text_label": "Initials",
+            "text_placeholder": "e.g. AHM",
+            "text_maxlength": 8,
+            "text_uppercase": true,
+            "text_required": true,
+            "error_text": "Please add your initials.",
+            "stamp_on_product": true,
+            "visibility_metafield": "custom.custom_initials",
+            "show_debug": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 16
+          }
+        },
+        "customize_link_J9Fjb3": {
+          "type": "customize_link",
+          "settings": {
+            "label": "Customize",
+            "element_id": "product-customize",
+            "open_new_tab": true,
+            "button_type": "btn--black",
+            "button_style": "btn--outline",
+            "button_size": "btn--large",
+            "full_width": true,
+            "padding_bottom": 32
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_description": true,
+            "show_read_more": true,
+            "title_1": "Product Details",
+            "raw_content_1": "<p>Upper: Aubergine – Hand Patina Leather</p><p>Patina Pattern: Museum</p><p>Eyelets: Graphite</p><p>Buckle: Old Silver</p><p>Laces: Grey</p><p>Lining: Brown Calf Leather</p><p>Sole: Hand Painted Dark Red Leather / Mountain Rubber Injections</p><p>Welt: City</p><p>Last: Featuring a Slightly Squared Toe</p><p>Construction: Goodyear Welt</p>",
+            "title_2": "Info",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_3": "Free remake guarantee ",
+            "raw_content_3": "<p>test</p>",
+            "title_4": "Made to order ",
+            "raw_content_4": "<p>test</p>",
+            "title_5": "Shipping",
+            "raw_content_5": "<p>test</p>",
+            "padding_bottom": 0
+          }
+        },
+        "divider_1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [
+              "aubergine-patina-leather-hiking-boots",
+              "beige-black-linen-top-sider-trainers",
+              "beige-suede-wholecut-shoes"
+            ],
+            "show_available_upsell_only": false,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variants",
+        "width_selector_JXMde6",
+        "addon_mUmDKp",
+        "addon_TWP3Lb",
+        "buttons",
+        "customize_link_J9Fjb3",
+        "tabs",
+        "divider_1",
+        "upsell"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "cart_bar_show_image": false,
+        "cart_bar_variant_action": "scroll",
+        "cart_bar_label": "",
+        "cart_bar_button_type": "btn--primary",
+        "cart_bar_button_style": "btn--solid",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "mobile_image_style": "thumbs",
+        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "tabs_section_naNTMc": {
+      "type": "tabs-section",
+      "blocks": {
+        "tab_yjGgYx": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "MATERIAL",
+            "layout": "image_overlay",
+            "subheading": "",
+            "heading": "{{ product.metafields.custom.material_headline.value }}",
+            "text": "<p>{{ product.metafields.accordion.leather_type_text | metafield_tag }}</p>",
+            "image": "{{ product.metafields.accordion.leather_type_image.value }}",
+            "video_loop": false,
+            "media_position": "left",
+            "min_height": 500,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "text_max_width": 560,
+            "vertical_position": "center",
+            "horizontal_position": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "tab_4LwkdK": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "CONSTRUCTION",
+            "layout": "image_overlay",
+            "subheading": "",
+            "heading": "{{ product.metafields.custom.construction_headling.value }}",
+            "text": "<p>{{ product.metafields.accordion._sourcing_material_2nd_text | metafield_tag }}</p>",
+            "image": "{{ product.metafields.accordion._sourcing_material_2nd_image.value }}",
+            "video_loop": false,
+            "media_position": "left",
+            "min_height": 500,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "text_max_width": 560,
+            "vertical_position": "center",
+            "horizontal_position": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "tab_THR7Hx": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "SOLE",
+            "layout": "media_text",
+            "subheading": "",
+            "heading": "{{ product.metafields.custom.sole_headline.value }}",
+            "text": "<p>{{ product.metafields.accordion._sourcing_material_3rd_text | metafield_tag }}</p>",
+            "image": "{{ product.metafields.accordion._sourcing_material_3rd_image.value }}",
+            "video_loop": false,
+            "media_position": "right",
+            "min_height": 500,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "text_max_width": 560,
+            "vertical_position": "center",
+            "horizontal_position": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "tab_z7nzkV": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "SHOE LAST",
+            "layout": "media_text",
+            "subheading": "",
+            "heading": "{{ product.metafields.custom.shoe_last_headline.value }}",
+            "text": "<p>{{ product.metafields.custom.shoe_last | metafield_tag }}</p>",
+            "image": "{{ product.metafields.custom.shoe_last_image.value }}",
+            "video_loop": false,
+            "media_position": "right",
+            "min_height": 500,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "text_max_width": 560,
+            "vertical_position": "center",
+            "horizontal_position": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "tab_iDE6nc": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Made in Spain",
+            "layout": "media_text",
+            "subheading": "",
+            "heading": "{{ product.metafields.custom.made_in_spain_headline.value }}",
+            "text": "<p>{{ product.metafields.custom.made_in_spain | metafield_tag }}</p>",
+            "image": "{{ product.metafields.custom.made_in_spain_image.value }}",
+            "video_loop": false,
+            "media_position": "right",
+            "min_height": 500,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "text_max_width": 560,
+            "vertical_position": "center",
+            "horizontal_position": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        }
+      },
+      "block_order": [
+        "tab_yjGgYx",
+        "tab_4LwkdK",
+        "tab_THR7Hx",
+        "tab_z7nzkV",
+        "tab_iDE6nc"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "heading": "",
+        "heading_size": "heading-medium",
+        "tab_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "17254558578b312487": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_snippets_widget_nN4wYx": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews-type": "product-reviews",
+            "reviews-limit": 10,
+            "alignment": "center",
+            "max-width": "544px",
+            "color-scheme": "inverted",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "product_selection": ""
+          }
+        },
+        "loox_reviews_loox_card_carousel_section_AXheDf": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1600,
+            "borderRadius": 2,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 2,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1",
+            "reviewerNameColor": "#000000",
+            "textColor": "#696969",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": true,
+            "border_width": 1,
+            "border_color": "#d9d9d9",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_snippets_widget_nN4wYx",
+        "loox_reviews_loox_card_carousel_section_AXheDf"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products"
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed"
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_row_GrpNEb": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_tjqwxq": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Spain_d04fe72b-6d5e-4017-9482-9e70ec9ce475.svg",
+            "icon_size": 40,
+            "icon_color": "#545454",
+            "title": "Handcrafted in Spain",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Built on a single bench in Alicante by hands we know by name.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_xzbDbd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-smile",
+            "image": "shopify://shop_images/Size_3987de2c-d7c3-4360-a8eb-09d10a85b1ce.svg",
+            "icon_size": 40,
+            "icon_color": "#461214",
+            "title": "BIG & WIDE Sizes Available",
+            "heading_font_size": "heading-medium",
+            "text": "<p>We cater to all sizes and widths, from 5 to 17 US, including half and wide sizes.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_iDrB4B": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Remake_57998cbf-1b2f-4d5c-b8c4-301065559b7c.svg",
+            "icon_size": 40,
+            "icon_color": "#545454",
+            "title": "Free remake guarantee",
+            "heading_font_size": "heading-medium",
+            "text": "<p>If the fit isn't right, we make it again — on us.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_YNxaBb": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/World_cf991536-aa1f-4797-849e-ec8d393f4b37.svg",
+            "icon_size": 40,
+            "icon_color": "#545454",
+            "title": "Worldwide shipping",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Free, insured, tracked. Anywhere we can reach a doorstep.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_tjqwxq",
+        "icon_xzbDbd",
+        "icon_iDrB4B",
+        "icon_YNxaBb"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-e23b9f31-588f-4979-b31d-259015c439c7",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tabs_section_naNTMc",
+    "17254558578b312487",
+    "related",
+    "section_text_row_GrpNEb"
+  ]
+}
