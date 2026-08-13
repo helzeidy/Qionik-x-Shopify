@@ -441,12 +441,98 @@
       "settings": {
         "borders": false,
         "gutters": false,
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_timeline_scroll_zmGMfk": {
+      "type": "section-timeline-scroll",
+      "blocks": {
+        "step_pGLFC8": {
+          "type": "step",
+          "settings": {
+            "subheading": "1st Sign",
+            "title": "Strengthens Hair Fibers",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Helps reinforce weakened hair with protein<br/>and conditioning technology.</p>",
+            "text_font_size": "body-medium",
+            "image": "shopify://shop_images/8.png",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "step_kcBAcW": {
+          "type": "step",
+          "settings": {
+            "subheading": "2nd Sign",
+            "title": "Strengthens Hair Fibers",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Helps reinforce weakened hair with protein<br/>and conditioning technology.</p>",
+            "text_font_size": "body-medium",
+            "image": "shopify://shop_images/8.png",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "step_cwHzQR": {
+          "type": "step",
+          "settings": {
+            "subheading": "3rd Sign",
+            "title": "Strengthens Hair Fibers",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Helps reinforce weakened hair with protein<br/>and conditioning technology.</p>",
+            "text_font_size": "body-medium",
+            "image": "shopify://shop_images/8.png",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        },
+        "step_Rd3rjk": {
+          "type": "step",
+          "settings": {
+            "subheading": "4th Sign",
+            "title": "Strengthens Hair Fibers",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Helps reinforce weakened hair with protein<br/>and conditioning technology.</p>",
+            "text_font_size": "body-medium",
+            "image": "shopify://shop_images/8.png",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid"
+          }
+        }
+      },
+      "block_order": [
+        "step_pGLFC8",
+        "step_kcBAcW",
+        "step_cwHzQR",
+        "step_Rd3rjk"
+      ],
+      "name": "Timeline scroll",
+      "settings": {
+        "heading": "05 — EIGHT SIGNS OF REPAIR",
+        "heading_font_size": "heading-x-small",
+        "text": "<h3>Eight intelligent actions.<br/>Eight visible transformations.</h3>",
+        "text_font_size": "body-large",
+        "intro_alignment": "text-left",
+        "show_images": true,
+        "step_scroll": 1,
+        "text_width": 520,
+        "rail_gap": 72,
+        "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
+        "padding_top": 60,
         "padding_bottom": 0
       }
     },
@@ -636,6 +722,7 @@
     "section_custom_content_7Hr7aB",
     "section_multicolumn_bdQTQP",
     "section_custom_content_CwdLQA",
+    "section_timeline_scroll_zmGMfk",
     "section_announcement_R7KWbe",
     "section_text_row_tzpdW9"
   ]
