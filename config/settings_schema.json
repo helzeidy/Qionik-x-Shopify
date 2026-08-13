@@ -322,7 +322,7 @@
         "type": "color",
         "id": "subheading_color",
         "label": "Color",
-        "info": "Applies to every subheading in the theme. Leave empty to follow each section's color scheme. Blocks with their own subheading color override this.",
+        "info": "Sets the color of every subheading in the theme. Leave empty to use the Text color from each section's color scheme. Sections and blocks that set their own Text color keep it.",
         "alpha": true
       },
       {
