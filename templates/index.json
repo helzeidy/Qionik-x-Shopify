@@ -62,193 +62,20 @@
         "padding_bottom": 0
       }
     },
-    "section_rich_text_R37UEc": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_hBbXwT": {
-          "type": "heading",
-          "settings": {
-            "title": "Our Collections",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_r9VfHf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Every style. Every width. Every occasion.</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_tYYAHL": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Shop NOW",
-            "button_url": "shopify://collections",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_hBbXwT",
-        "text_r9VfHf",
-        "buttons_tYYAHL"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 32
-      }
-    },
-    "section_collections_list_Eby3tp": {
-      "type": "section-collections-list",
-      "blocks": {
-        "collection_gThUwK": {
-          "type": "collection",
-          "settings": {
-            "collection": "designer-loafers",
-            "collection_image": "{{ block.settings.collection.image }}",
-            "title": "{{ block.settings.collection.title }}"
-          }
-        },
-        "collection_KL9pKE": {
-          "type": "collection",
-          "settings": {
-            "collection": "custom-oxford-shoes",
-            "collection_image": "{{ block.settings.collection.image }}",
-            "title": "{{ block.settings.collection.title }}"
-          }
-        },
-        "collection_GBXgTn": {
-          "type": "collection",
-          "settings": {
-            "collection": "custom-loafers",
-            "collection_image": "{{ block.settings.collection.image }}",
-            "title": "{{ block.settings.collection.title }}"
-          }
-        },
-        "collection_WyKVAN": {
-          "type": "collection",
-          "settings": {
-            "collection": "golf-shoes",
-            "collection_image": "{{ block.settings.collection.image }}",
-            "title": "{{ block.settings.collection.title }}"
-          }
-        },
-        "collection_cibAK9": {
-          "type": "collection",
-          "settings": {
-            "collection": "exotic-skin-shoes",
-            "collection_image": "{{ block.settings.collection.image }}",
-            "title": "{{ block.settings.collection.title }}"
-          }
-        }
-      },
-      "block_order": [
-        "collection_gThUwK",
-        "collection_KL9pKE",
-        "collection_GBXgTn",
-        "collection_WyKVAN",
-        "collection_cibAK9"
-      ],
-      "custom_css": [],
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-large",
-        "description": "",
-        "text_font_size": "body-medium",
-        "button_text": "",
-        "button_url": "shopify://collections",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": true,
-        "aspect_ratio": 1.5,
-        "width": "wrapper--full-padded",
-        "layout": "slider",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
-        "padding_top": 0,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
-    "section_hero_Q7zzN4": {
-      "type": "section-hero",
-      "blocks": {
-        "text_7wLwdy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For the man who's spent his life sizing down.</p>",
-            "text_font_size": "body-x-large",
-            "padding_bottom": 0
-          }
-        },
-        "heading_cHKFin": {
-          "type": "heading",
-          "settings": {
-            "title": "FULL & HALF SIZES 5-17 │ EE & EEE WIDTH",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic",
-            "padding_bottom": 16
-          }
-        },
-        "text_L8dd99": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you've ever bought a shoe a half-size off because the right one didn't exist — this is for you. Every last in our line is graded the full range, on the same bench, by the same hands.</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "text_7wLwdy",
-        "heading_cHKFin",
-        "text_L8dd99"
-      ],
-      "name": "Image banner",
-      "settings": {
-        "link": "",
-        "width": "wrapper--full-padded",
-        "height": "screen-height-one-third",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 60,
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-left-mobile",
-        "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_placeholder": true
-      }
-    },
     "section_double_ALB37d": {
       "type": "section-double",
       "blocks": {
         "subheading_TpVr7A": {
           "type": "subheading",
           "settings": {
-            "subheading": "BIG & WIDE",
+            "subheading": "01 — THE PROBLEM",
             "padding_bottom": 16
           }
         },
         "heading_ybPRaA": {
           "type": "heading",
           "settings": {
-            "title": "The size range menswear forgets.",
+            "title": "Most Hair MasksStop At The Surface.",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -257,8 +84,8 @@
         "text_7RzPyJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Most makers stop at 13. We don't. Every ADORSI last is cut in full and half sizes from US 5 through 17, in four widths from standard D to extra-wide EEE — no upcharge, no waiting on a special order.</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>Heat styling, coloring, bleaching, UV exposure, pollution, and daily mechanical stress gradually weaken the hair fiber.<br/><br/>As the cuticle becomes damaged, hair loses moisture, smoothness, elasticity, and shine. Many traditional hair masks temporarily coat the surface creating softness that disappears after washing.</p>",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         },
@@ -283,6 +110,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/Firefly_gpt-image_-Macro_photography_of_flowing_dark_grey_hair_strands_intertwined_with_a_glass_molecul_64531.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -793,9 +621,6 @@
   },
   "order": [
     "section_slideshow_yADrDe",
-    "section_rich_text_R37UEc",
-    "section_collections_list_Eby3tp",
-    "section_hero_Q7zzN4",
     "section_double_ALB37d",
     "section_hero_product_i6KxhK",
     "section_products_image_yWErRm",
