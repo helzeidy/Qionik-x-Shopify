@@ -27,6 +27,13 @@
           },
           {
             "type": "color",
+            "id": "section_subheading",
+            "label": "Subheading",
+            "info": "Leave empty to use this scheme's Text color, or the theme-wide subheading color if one is set under Typography.",
+            "alpha": true
+          },
+          {
+            "type": "color",
             "id": "section_bg",
             "label": "Background",
             "default": "#ffffff",

@@ -224,6 +224,17 @@
       --COLOR-TEXT-A50: {{ scheme.settings.section_text | color_modify: 'alpha', 0.50 }};
       --COLOR-TEXT-A80: {{ scheme.settings.section_text | color_modify: 'alpha', 0.80 }};
 
+      {%- comment -%}
+        Set on every scheme, so a section using a scheme with no subheading color
+        falls through to the theme-wide setting rather than inheriting the
+        default scheme's value from :root. `initial` reads as unset inside var().
+      {%- endcomment -%}
+      {% if scheme.settings.section_subheading != blank and scheme.settings.section_subheading.alpha != 0 %}
+        --subheading-scheme: {{ scheme.settings.section_subheading }};
+      {% else %}
+        --subheading-scheme: initial;
+      {% endif %}
+
 
       --COLOR-BORDER: {{ scheme.settings.lines_and_border | color_to_rgb }};
       --COLOR-BORDER-LIGHT: {{ scheme.settings.lines_and_border | color_mix: scheme.settings.section_bg, 60 }};
@@ -468,6 +479,9 @@
 
     --FONT-UPPERCASE-SUBHEADING: {{ subheading_font_uppercase }};
     --LETTER-SPACING-SUBHEADING: {{ settings.sub_letter_spacing | divided_by: 1000.0 | append: 'em' }};
+    {% if settings.subheading_color != blank and settings.subheading_color.alpha != 0 %}
+      --SUBHEADING-GLOBAL: {{ settings.subheading_color }};
+    {% endif %}
 
     --FONT-STACK-NAV: {{ nav_font.family }}, {{ nav_font.fallback_families }};
     --FONT-WEIGHT-NAV: {{ nav_font.weight }};
@@ -586,19 +600,31 @@
     }
   {% endif %}
 
-  /* === Global subheading color ===*/
-  {% if settings.subheading_color != blank and settings.subheading_color.alpha != 0 %}
-    .hero__subheading,
-    .subheading,
-    .editorial__subheading,
-    .modal__subheading,
-    .product__subheading,
-    .brick__product__subheading,
-    .review__author__subheading,
-    .tabs-section__subheading {
-      color: var(--subheading-color, {{ settings.subheading_color }});
-    }
-  {% endif %}
+  {%- comment -%}
+    === Subheading color ===
+    Resolution order, first one that is set wins:
+      --subheading-color   a section or block's own Text color
+      --subheading-scheme  the section color scheme's Subheading color
+      --SUBHEADING-GLOBAL  Typography > Subheadings > Color
+      (fallback)           whatever the class rendered as before this existed
+
+    .hero__subheading needs the :root prefix to outrank `color: var(--text)` in
+    theme.css, which is linked after this style block. The other classes have no
+    color declaration of their own, so they fall back to `inherit`.
+  {%- endcomment -%}
+  :root .hero__subheading {
+    color: var(--subheading-color, var(--subheading-scheme, var(--SUBHEADING-GLOBAL, var(--text))));
+  }
+
+  .subheading,
+  .editorial__subheading,
+  .modal__subheading,
+  .product__subheading,
+  .brick__product__subheading,
+  .review__author__subheading,
+  .tabs-section__subheading {
+    color: var(--subheading-color, var(--subheading-scheme, var(--SUBHEADING-GLOBAL, inherit)));
+  }
 
   *,
   *::before,
