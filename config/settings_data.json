@@ -22,7 +22,7 @@
     "body_letter_spacing": -25,
     "subheading_size_desktop": 16,
     "subheading_size_mobile": 12,
-    "type_header_font": "alegreya_n4",
+    "type_header_font": "montserrat_n5",
     "heading_medium_mobile": 24,
     "heading_large_mobile": 32,
     "heading_x_large_mobile": 40,
@@ -34,18 +34,12 @@
     "enable_superscript": true,
     "show_scroll_top_button": true,
     "empty_search_menu": "drivers",
-    "empty_search_product_list": [
-      "aubergine-patina-leather-hiking-boots",
-      "beige-black-linen-top-sider-trainers",
-      "beige-suede-wholecut-shoes",
-      "black-white-houndstooth-low-top-sneakers",
-      "black-alligator-calf-leather-double-monk-shoes"
-    ],
-    "instagram_link": "https://www.instagram.com/Adorsibrand/",
-    "facebook_link": "https://www.facebook.com/Adorsibrand",
+    "empty_search_product_list": [],
+    "instagram_link": "",
+    "facebook_link": "",
     "twitter_link": "",
-    "tiktok_link": "https://www.tiktok.com/@adorsibrand",
-    "pinterest_link": "https://www.pinterest.com/AdorsiBrand/",
+    "tiktok_link": "",
+    "pinterest_link": "",
     "enable_infinity_scroll": true,
     "product_grid_font_size": "body-large",
     "product_grid_center": false,
@@ -73,6 +67,7 @@
     "sale_text_color": "#af7b88",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
+    "favicon": "shopify://shop_images/favicon.svg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#fff",
@@ -84,23 +79,6 @@
     "checkout_button_color": "#c5aa76",
     "checkout_error_color": "#c85c42",
     "content_for_index": [],
-    "blocks": {
-      "12334822184266723110": {
-        "type": "shopify://apps/sa-variants/blocks/variant-king-combined-listing/ff68b20f-8c8f-491e-92bf-3e5b8f17ef88",
-        "disabled": false,
-        "settings": {
-          "alignment": "left",
-          "swatch_location": "After image",
-          "switch_on_hover": true,
-          "preselect_variant": false
-        }
-      },
-      "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {}
-      }
-    },
     "color_schemes": {
       "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618": {
         "settings": {
@@ -145,11 +123,11 @@
           "section_bg_light": "#ffffff",
           "section_bg_gradient": "",
           "btn_primary_bg": "#ffffff",
-          "btn_primary_text": "#FFFFFF",
-          "btn_primary_border": "#FFFFFF",
-          "btn_secondary_bg": "#FFFFFF",
+          "btn_primary_text": "#ffffff",
+          "btn_primary_border": "#ffffff",
+          "btn_secondary_bg": "#ffffff",
           "btn_secondary_text": "#ffffff",
-          "btn_secondary_border": "#FFFFFF",
+          "btn_secondary_border": "#ffffff",
           "accent": "#461214",
           "lines_and_border": "#d1cdc4",
           "overlay": "#00000021",
