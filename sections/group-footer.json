@@ -28,7 +28,7 @@
         "social_qxgNqB": {
           "type": "social",
           "settings": {
-            "title": "About ADORSI",
+            "title": "Qionik",
             "heading_font_size": "heading-small",
             "text": "<p>Bespoke men's shoes, made to order in Alicante, Spain. Sizes 5 to 17, widths D through EEE — for the foot you actually have.</p>",
             "column_width": 25,
@@ -92,7 +92,7 @@
       "type": "section-anchor-logo",
       "name": "Logo",
       "settings": {
-        "logo": "shopify://shop_images/Asset_1.svg",
+        "logo": "shopify://shop_images/Layer_1-1.svg",
         "color_scheme": "scheme-e23b9f31-588f-4979-b31d-259015c439c7",
         "padding_top": 50,
         "padding_bottom": 30

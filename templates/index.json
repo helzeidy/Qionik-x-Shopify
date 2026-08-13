@@ -15,11 +15,11 @@
         "image_xxeJAD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_1_6f86f0d7-9b5e-420e-afa5-50d0886e7332.jpg",
+            "image": "shopify://shop_images/hero-desktop_730c8171-8894-4e17-a71a-f34b011ee0c9.jpg",
             "image_link": "",
-            "title": "Image slide",
+            "title": "The Future \nof Repair is Ionic",
             "heading_font_size": "heading-x-large",
-            "description": "Tell your brand's story through images.",
+            "description": "Luxury haircare engineered to restore the hair’s natural \nbalance through advanced ionic conditioning science.\n\nEvery formula is designed to repair, hydrate, strengthen,\nand reveal healthier-looking hair from the very first use.",
             "text_font_size": "body-large",
             "first_button_text": "View products",
             "first_button_link": "",
@@ -33,39 +33,9 @@
             "second_button_size": "",
             "second_button_style": "btn--solid",
             "second_button_show_arrow": false,
-            "flex_align_desktop": "align--middle-center-desktop",
-            "flex_align_mobile": "align--middle-center-mobile",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_bazccn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1_4.jpg",
-            "image_link": "",
-            "title": "Made for the man who knows the difference.",
-            "heading_font_size": "heading-x-large",
-            "description": "Bespoke men's footwear, handcrafted in Spain. Extended sizing from 5 to 17 — in widths Standard (D), Wide (EE), Extra Wide (EEE)",
-            "text_font_size": "body-large",
-            "first_button_text": "Shop All Products",
-            "first_button_link": "shopify://collections/all",
-            "first_button_type": "btn--secondary",
-            "first_button_size": "",
-            "first_button_style": "btn--solid",
-            "first_button_show_arrow": false,
-            "second_button_text": "",
-            "second_button_link": "",
-            "second_button_type": "btn--primary",
-            "second_button_size": "",
-            "second_button_style": "btn--solid",
-            "second_button_show_arrow": false,
-            "flex_align_desktop": "align--bottom-left-desktop",
-            "mobile_image": "shopify://shop_images/1_4.jpg",
-            "flex_align_mobile": "align--bottom-left-mobile",
+            "flex_align_desktop": "align--middle-left-desktop",
+            "mobile_image": "shopify://shop_images/hero-mobile.jpg",
+            "flex_align_mobile": "align--bottom-center-mobile",
             "show_text_background": false,
             "bg_color": "",
             "color": "",
@@ -75,8 +45,7 @@
         }
       },
       "block_order": [
-        "image_xxeJAD",
-        "image_bazccn"
+        "image_xxeJAD"
       ],
       "name": "Slideshow (Legacy)",
       "settings": {
@@ -88,7 +57,7 @@
         "height": "screen-height-full",
         "content_width": 50,
         "mobile_height": "screen-height-three-quarters--mobile",
-        "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
+        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -251,7 +220,6 @@
       ],
       "name": "Image banner",
       "settings": {
-        "image_1": "shopify://shop_images/Panels.jpg",
         "link": "",
         "width": "wrapper--full-padded",
         "height": "screen-height-one-third",
@@ -315,7 +283,6 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/1-_34_f1f6a8ec-4adc-4caa-9af8-74c3082c711f.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -327,72 +294,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "section_custom_content_NdQXKa": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_eCWrdk": {
-          "type": "text",
-          "settings": {
-            "subheading": "BIG & WIDE",
-            "title": "The size range menswear forgets.",
-            "heading_font_size": "heading-x-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "text_4gL7MV": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "<p>Most makers stop at 13. We don't. Every ADORSI last is cut in full and half sizes from US 5 through 17, in four widths from standard D to extra-wide EEE — no upcharge, no waiting on a special order.</p>",
-            "text_font_size": "body-large",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_eCWrdk",
-        "text_4gL7MV"
-      ],
-      "disabled": true,
-      "name": "Custom section",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
-        "padding_top": 100,
-        "padding_bottom": 0
       }
     },
     "section_hero_product_i6KxhK": {
@@ -433,7 +334,6 @@
       ],
       "name": "Image with product",
       "settings": {
-        "image_1": "shopify://shop_images/1_29_725eab23-1a70-44d4-bac8-980a8cb1d3b3.jpg",
         "link": "",
         "product": "classic-black-leather-oxford-shoes",
         "description": "",
@@ -451,59 +351,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "section_custom_content_GcCeRY": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_LApcFH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Firefly_Gemini_Flash_Enhance_the_gold_metal_hardware_to_look_polished_smooth_and_luxurious._Increase_ref_509694.png",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "collection_3UC6UV": {
-          "type": "collection",
-          "settings": {
-            "collection": "designer-loafers",
-            "title": "Shop the look",
-            "bg_color": "",
-            "color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_LApcFH",
-        "collection_3UC6UV"
-      ],
-      "disabled": true,
-      "name": "Custom section",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_products_image_yWErRm": {
@@ -524,7 +371,6 @@
         "image_tbbfFR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6033_0.png",
             "mobile_height": "screen-height-one-half--mobile",
             "title": "",
             "heading_font_size": "heading-large",
@@ -665,7 +511,6 @@
             "title": "David P.",
             "subheading": "",
             "review_content": "<p>Fantastic shooes in brown ostrich I've had a pair before in black very well made and true to size.</p>",
-            "featured_image": "shopify://shop_images/5288_0_110x110_2x_7b756204-e031-4a32-9ba5-862d09aa9f7e.jpg",
             "review_url": ""
           }
         },
@@ -675,7 +520,6 @@
             "title": "Kip D.",
             "subheading": "",
             "review_content": "<p>LOVE, LOVE, LOVE these shoes! The fit is great and the look amazing. Its so difficult to find this size.</p>",
-            "featured_image": "shopify://shop_images/5632_0_1024x1024_2x_210114c8-b8c7-4d89-a382-865a6c48807a.jpg",
             "review_url": ""
           }
         },
@@ -685,7 +529,6 @@
             "title": "Aleksandr C.",
             "subheading": "",
             "review_content": "<p>Happy with my purchase from you, will buy again! Communication is great!</p>",
-            "featured_image": "shopify://shop_images/6033_0.png",
             "review_url": ""
           }
         }
@@ -706,42 +549,6 @@
         "card_bg_color": "",
         "padding_top": 70,
         "padding_bottom": 70
-      }
-    },
-    "1750856207ec25272b": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_card_carousel_section_eLVegG": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1600,
-            "borderRadius": 10,
-            "itemsPerView": 4,
-            "mobileItemsPerView": 1,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "1",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-light",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_card_carousel_section_eLVegG"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "include_margins": true
       }
     },
     "section_rich_text_kHXa9F": {
@@ -904,33 +711,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_collection_pbdUnA": {
-      "type": "section-collection",
-      "disabled": true,
-      "settings": {
-        "featured_collection": "golf-shoes",
-        "heading": "GOLF EDITION - The course deserves better shoes.",
-        "heading_font_size": "heading-large",
-        "description": "<p>From the tee to the 19th hole — without changing your shoes.</p>",
-        "text_font_size": "body-large",
-        "layout": "inline",
-        "link_text": "Shop Golf Edition",
-        "link_url": "shopify://collections/golf-shoes",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "layout_desktop": "slider",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-e91cab0e-1933-4c93-9241-b75f3ab20fa1",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_text_row_tzpdW9": {
       "type": "section-text-row",
       "blocks": {
@@ -938,7 +718,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/Spain_d04fe72b-6d5e-4017-9482-9e70ec9ce475.svg",
             "icon_size": 40,
             "icon_color": "#545454",
             "title": "Handcrafted in Spain",
@@ -952,7 +731,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-smile",
-            "image": "shopify://shop_images/Size_3987de2c-d7c3-4360-a8eb-09d10a85b1ce.svg",
             "icon_size": 40,
             "icon_color": "#461214",
             "title": "BIG & WIDE Sizes Available",
@@ -966,7 +744,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/Remake_57998cbf-1b2f-4d5c-b8c4-301065559b7c.svg",
             "icon_size": 40,
             "icon_color": "#545454",
             "title": "Free remake guarantee",
@@ -980,7 +757,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/World_cf991536-aa1f-4797-849e-ec8d393f4b37.svg",
             "icon_size": 40,
             "icon_color": "#545454",
             "title": "Worldwide shipping",
@@ -1021,16 +797,12 @@
     "section_collections_list_Eby3tp",
     "section_hero_Q7zzN4",
     "section_double_ALB37d",
-    "section_custom_content_NdQXKa",
     "section_hero_product_i6KxhK",
-    "section_custom_content_GcCeRY",
     "section_products_image_yWErRm",
     "section_announcement_R7KWbe",
     "section_reviews_fiwDiK",
-    "1750856207ec25272b",
     "section_rich_text_kHXa9F",
     "section_tab_collections_TY7E4B",
-    "section_collection_pbdUnA",
     "section_text_row_tzpdW9"
   ]
 }

@@ -10,11 +10,11 @@
 {
   "current": {
     "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
-    "menu_bg_color": "#efe7e1",
-    "header_link": "#461214",
-    "submenu_bg_color": "#fcfbf9",
-    "submenu_link_color": "#212121",
-    "menu_transparent_color": "#ffffff",
+    "menu_bg_color": "#FFFFFF",
+    "header_link": "#1C1C1C",
+    "submenu_bg_color": "#EFEFEF",
+    "submenu_link_color": "#1C1C1C",
+    "menu_transparent_color": "#1C1C1C",
     "type_nav_font": "poppins_n4",
     "nav_letter_spacing": -25,
     "type_base_font": "poppins_n4",
