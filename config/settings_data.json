@@ -48,8 +48,8 @@
     "image_hover_limit": 2,
     "product_grid_aspect_ratio": 1,
     "quickview_enable": true,
-    "quick_add_bg_color": "#461214",
-    "quick_add_text_color": "#fcfbf9",
+    "quick_add_bg_color": "#BF0000",
+    "quick_add_text_color": "#FFFFFF",
     "quick_add_mobile_style": "mini_button",
     "show_cutline": false,
     "cutline_color": "#997476",
@@ -82,56 +82,56 @@
     "color_schemes": {
       "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618": {
         "settings": {
-          "section_text": "#1C1C1C",
-          "section_bg": "#FFFFFF",
-          "section_bg_light": "#EFEFEF",
+          "section_text": "#1c1c1c",
+          "section_bg": "#ffffff",
+          "section_bg_light": "#efefef",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#1C1C1C",
+          "btn_primary_bg": "#1c1c1c",
           "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#1C1C1C",
-          "btn_secondary_bg": "#EFEFEF",
-          "btn_secondary_text": "#1C1C1C",
-          "btn_secondary_border": "#EFEFEF",
-          "accent": "#BF0000",
-          "lines_and_border": "#1C1C1C12",
-          "overlay": "#BF00001A",
-          "links": "#BF0000"
+          "btn_primary_border": "#1c1c1c",
+          "btn_secondary_bg": "#efefef",
+          "btn_secondary_text": "#1c1c1c",
+          "btn_secondary_border": "#efefef",
+          "accent": "#bf0000",
+          "lines_and_border": "#1c1c1c12",
+          "overlay": "#bf00001a",
+          "links": "#bf0000"
         }
       },
       "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408": {
         "settings": {
           "section_text": "#ffffff",
-          "section_bg": "#1C1C1C",
+          "section_bg": "#1c1c1c",
           "section_bg_light": "#404040",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#BF0000",
-          "btn_primary_text": "#FFFFFF",
-          "btn_primary_border": "#BF0000",
-          "btn_secondary_bg": "#FFFFFF",
-          "btn_secondary_text": "#1C1C1C",
-          "btn_secondary_border": "#FFFFFF",
-          "accent": "#BF0000",
-          "lines_and_border": "#1C1C1C12",
-          "overlay": "#BF00001A",
-          "links": "#BF0000"
+          "btn_primary_bg": "#bf0000",
+          "btn_primary_text": "#ffffff",
+          "btn_primary_border": "#bf0000",
+          "btn_secondary_bg": "#ffffff",
+          "btn_secondary_text": "#1c1c1c",
+          "btn_secondary_border": "#ffffff",
+          "accent": "#bf0000",
+          "lines_and_border": "#1c1c1c12",
+          "overlay": "#bf00001a",
+          "links": "#bf0000"
         }
       },
       "scheme-e23b9f31-588f-4979-b31d-259015c439c7": {
         "settings": {
-          "section_text": "#1C1C1C",
-          "section_bg": "#EFEFEF",
+          "section_text": "#1c1c1c",
+          "section_bg": "#efefef",
           "section_bg_light": "#ffffff",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#1C1C1C",
+          "btn_primary_bg": "#1c1c1c",
           "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#1C1C1C",
-          "btn_secondary_bg": "#FFFFFF",
-          "btn_secondary_text": "#1C1C1C",
-          "btn_secondary_border": "#FFFFFF",
-          "accent": "#BF0000",
-          "lines_and_border": "#1C1C1C12",
-          "overlay": "#BF00001A",
-          "links": "#BF0000"
+          "btn_primary_border": "#1c1c1c",
+          "btn_secondary_bg": "#ffffff",
+          "btn_secondary_text": "#1c1c1c",
+          "btn_secondary_border": "#ffffff",
+          "accent": "#bf0000",
+          "lines_and_border": "#1c1c1c12",
+          "overlay": "#bf00001a",
+          "links": "#bf0000"
         }
       },
       "scheme-025a5426-514e-4a02-9e15-80cab8125ad9": {
@@ -140,16 +140,16 @@
           "section_bg": "#ffffff",
           "section_bg_light": "#ffffff",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#1C1C1C",
+          "btn_primary_bg": "#1c1c1c",
           "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#1C1C1C",
-          "btn_secondary_bg": "#FFFFFF",
-          "btn_secondary_text": "#FFFFFF",
-          "btn_secondary_border": "#FFFFFF",
-          "accent": "#BF0000",
-          "lines_and_border": "#1C1C1C12",
-          "overlay": "#BF00001A",
-          "links": "#BF0000"
+          "btn_primary_border": "#1c1c1c",
+          "btn_secondary_bg": "#ffffff",
+          "btn_secondary_text": "#ffffff",
+          "btn_secondary_border": "#ffffff",
+          "accent": "#bf0000",
+          "lines_and_border": "#1c1c1c12",
+          "overlay": "#bf00001a",
+          "links": "#bf0000"
         }
       }
     }
