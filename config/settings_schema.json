@@ -319,6 +319,13 @@
         "default": 14
       },
       {
+        "type": "color",
+        "id": "subheading_color",
+        "label": "Color",
+        "info": "Applies to every subheading in the theme. Leave empty to follow each section's color scheme. Blocks with their own subheading color override this.",
+        "alpha": true
+      },
+      {
         "type": "header",
         "content": "Headings"
       },

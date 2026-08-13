@@ -61,7 +61,7 @@
                   <div class="tabs-section__overlay-tint" style="background: {{ b.overlay_color }}; opacity: {{ b.overlay_opacity | divided_by: 100.0 }};"></div>
 
                   <div class="tabs-section__overlay-inner v-{{ b.vertical_position }} h-{{ b.horizontal_position }}">
-                    <div class="tabs-section__overlay-content" style="color: {{ b.text_color }}; max-width: {{ b.text_max_width }}px;">
+                    <div class="tabs-section__overlay-content" style="color: {{ b.text_color }}; --subheading-color: {{ b.text_color }}; max-width: {{ b.text_max_width }}px;">
                       {%- if b.subheading != blank -%}<span class="tabs-section__subheading">{{ b.subheading | escape }}</span>{%- endif -%}
                       {%- if b.heading != blank -%}<h3 class="tabs-section__heading">{{ b.heading | escape }}</h3>{%- endif -%}
                       {%- if b.text != blank -%}<div class="tabs-section__text">{{ b.text }}</div>{%- endif -%}

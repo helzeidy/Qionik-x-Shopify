@@ -87,6 +87,7 @@
 
           {%- unless text_color.alpha == 0.0 or text_color == blank -%}
             --text: {{ text_color }};
+            --subheading-color: {{ text_color }};
             --text-light: {{ text_color | color_mix: bg_color, 70 }};
             --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
           {%- endunless -%}

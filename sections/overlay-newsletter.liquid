@@ -69,6 +69,7 @@
 
           {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
             --text: {{ text_color }};
+            --subheading-color: {{ text_color }};
           {%- endunless -%}
         }
       {%- endstyle -%}

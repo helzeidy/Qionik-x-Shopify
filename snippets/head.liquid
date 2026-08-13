@@ -586,6 +586,20 @@
     }
   {% endif %}
 
+  /* === Global subheading color ===*/
+  {% if settings.subheading_color != blank and settings.subheading_color.alpha != 0 %}
+    .hero__subheading,
+    .subheading,
+    .editorial__subheading,
+    .modal__subheading,
+    .product__subheading,
+    .brick__product__subheading,
+    .review__author__subheading,
+    .tabs-section__subheading {
+      color: var(--subheading-color, {{ settings.subheading_color }});
+    }
+  {% endif %}
+
   *,
   *::before,
   *::after {

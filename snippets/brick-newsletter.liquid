@@ -34,6 +34,7 @@
 
   {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
     --text: {{ text_color }};
+    --subheading-color: {{ text_color }};
     --text-light: {{ text_color | color_mix: scheme_bg_color, 70 }};
     --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
     --text-a35: {{ text_color | color_modify: 'alpha', 0.35 }};

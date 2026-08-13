@@ -6,7 +6,7 @@
     data-aos-anchor="#{{ section.id }}"
     {{ block.shopify_attributes }}
     style="
-      {% if block.settings.color != blank and block.settings.color.alpha != 0 %}--text: {{ block.settings.color }};{% endif %}
+      {% if block.settings.color != blank and block.settings.color.alpha != 0 %}--text: {{ block.settings.color }}; --subheading-color: {{ block.settings.color }};{% endif %}
       --block-padding-bottom: {{ block.settings.padding_bottom }}px;
     "
   >
