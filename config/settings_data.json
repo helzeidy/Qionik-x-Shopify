@@ -84,40 +84,23 @@
     "checkout_button_color": "#c5aa76",
     "checkout_error_color": "#c85c42",
     "content_for_index": [],
-    "blocks": {
-      "12334822184266723110": {
-        "type": "shopify://apps/sa-variants/blocks/variant-king-combined-listing/ff68b20f-8c8f-491e-92bf-3e5b8f17ef88",
-        "disabled": false,
-        "settings": {
-          "alignment": "left",
-          "swatch_location": "After image",
-          "switch_on_hover": true,
-          "preselect_variant": false
-        }
-      },
-      "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {}
-      }
-    },
     "color_schemes": {
       "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618": {
         "settings": {
-          "section_text": "#151515",
-          "section_bg": "#efe7e1",
-          "section_bg_light": "#ffffff",
+          "section_text": "#1C1C1C",
+          "section_bg": "#FFFFFF",
+          "section_bg_light": "#F6F6F6",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#461214",
+          "btn_primary_bg": "#1C1C1C",
           "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#efe7e1",
-          "btn_secondary_bg": "#efe7e1",
-          "btn_secondary_text": "#461214",
-          "btn_secondary_border": "#efe7e1",
-          "accent": "#461214",
-          "lines_and_border": "#4612140f",
-          "overlay": "#1e0f131c",
-          "links": "#461214"
+          "btn_primary_border": "#FFFFFF",
+          "btn_secondary_bg": "#F6F6F6",
+          "btn_secondary_text": "#1C1C1C",
+          "btn_secondary_border": "#1C1C1C",
+          "accent": "#E40C0C",
+          "lines_and_border": "#1C1C1C1C",
+          "overlay": "#E40C0C1C",
+          "links": "#E40C0C"
         }
       },
       "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408": {
@@ -145,11 +128,11 @@
           "section_bg_light": "#ffffff",
           "section_bg_gradient": "",
           "btn_primary_bg": "#ffffff",
-          "btn_primary_text": "#FFFFFF",
-          "btn_primary_border": "#FFFFFF",
-          "btn_secondary_bg": "#FFFFFF",
+          "btn_primary_text": "#ffffff",
+          "btn_primary_border": "#ffffff",
+          "btn_secondary_bg": "#ffffff",
           "btn_secondary_text": "#ffffff",
-          "btn_secondary_border": "#FFFFFF",
+          "btn_secondary_border": "#ffffff",
           "accent": "#461214",
           "lines_and_border": "#d1cdc4",
           "overlay": "#00000021",
