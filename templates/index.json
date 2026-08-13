@@ -398,6 +398,58 @@
         "heading_tag": "automatic"
       }
     },
+    "section_custom_content_CwdLQA": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_yV9cwD": {
+          "type": "text",
+          "settings": {
+            "subheading": "04 — THE HERO PRODUCT",
+            "title": "The Ionic Repair Mask.",
+            "heading_font_size": "heading-large",
+            "text": "<p>Powered by an advanced ionic conditioning system featuring Behentrimonium Chloride, Cetrimonium Chloride, Polyquaternium-64, Hydrolyzed Wheat Protein, Panthenol, Squalene, Royal Jelly Extract, Sodium PCA and Trehalose, the Ionic Repair Mask delivers intensive conditioning that restores softness, improves manageability, controls frizz, and reveals visibly healthier-looking hair.<br/><br/>Engineered in France for professional-level performance.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "product_QcKLXC": {
+          "type": "product",
+          "settings": {
+            "product": "qionik-premium-repair-mask",
+            "title": "",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_yV9cwD",
+        "product_QcKLXC"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_announcement_R7KWbe": {
       "type": "section-announcement",
       "blocks": {
@@ -574,58 +626,6 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
-    },
-    "section_custom_content_CwdLQA": {
-      "type": "section-custom-content",
-      "blocks": {
-        "product_QcKLXC": {
-          "type": "product",
-          "settings": {
-            "product": "qionik-premium-repair-mask",
-            "title": "",
-            "bg_color": "",
-            "color": ""
-          }
-        },
-        "text_yV9cwD": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Custom section",
-            "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "product_QcKLXC",
-        "text_yV9cwD"
-      ],
-      "name": "Custom section",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -635,8 +635,8 @@
     "section_custom_content_dkgWH6",
     "section_custom_content_7Hr7aB",
     "section_multicolumn_bdQTQP",
+    "section_custom_content_CwdLQA",
     "section_announcement_R7KWbe",
-    "section_text_row_tzpdW9",
-    "section_custom_content_CwdLQA"
+    "section_text_row_tzpdW9"
   ]
 }
