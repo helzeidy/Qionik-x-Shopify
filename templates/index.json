@@ -312,6 +312,92 @@
         "padding_bottom": 48
       }
     },
+    "section_multicolumn_bdQTQP": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_mp7P3U": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "Target",
+            "heading_font_size": "heading-small",
+            "text": "<p>Positively charged  conditionin agents selectively bind to damaged areas of the hair fiber.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_RzJRUr": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "Reinforce",
+            "heading_font_size": "heading-small",
+            "text": "<p>Hydrolyzed Wheat Protein helps improve strength, elasticity and resilience.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_NjnWfa": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "Restore",
+            "heading_font_size": "heading-small",
+            "text": "<p>Panthenol, Sodium PCA and Trehalose<br/>replenish moisture for lasting softness.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_jd8pfh": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "Shield",
+            "heading_font_size": "heading-small",
+            "text": "<p>Squalene, silicone conditioners and <br/>antioxidants help protect against daily<br/>environmental and thermal stress.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_mp7P3U",
+        "icon_RzJRUr",
+        "icon_NjnWfa",
+        "icon_jd8pfh"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
     "section_announcement_R7KWbe": {
       "type": "section-announcement",
       "blocks": {
@@ -496,6 +582,7 @@
     "section_hero_product_i6KxhK",
     "section_custom_content_dkgWH6",
     "section_custom_content_7Hr7aB",
+    "section_multicolumn_bdQTQP",
     "section_announcement_R7KWbe",
     "section_text_row_tzpdW9"
   ]
