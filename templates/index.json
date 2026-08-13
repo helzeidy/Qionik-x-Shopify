@@ -634,6 +634,134 @@
         "padding_bottom": 0,
         "show_placeholder": true
       }
+    },
+    "section_accordion_group_btyCef": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_nR7RXJ": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "question_CBp8FH": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What makes Ionic Renewal Technology different?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_m3WCjf": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How often should I use the Repair Mask?",
+            "content": "<p>For best results, use 1–2 times per week after shampooing. If your hair is dry, damaged, or chemically treated, you may use it more frequently until it feels healthier, then adjust based on your hair’s needs.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_A9ffKk": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Is it suitable for color-treated or chemically treated hair?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_YcLf8W": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Will it weigh my hair down?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_BAxNJG": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Is QIONIK cruelty-free?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_X3zeVK": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Where is QIONIK made?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_w8HFea": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Is it suitable for all hair types?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_pxedtw": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can I use it instead of a conditioner?",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_nR7RXJ",
+        "question_CBp8FH",
+        "question_m3WCjf",
+        "question_A9ffKk",
+        "question_YcLf8W",
+        "question_BAxNJG",
+        "question_X3zeVK",
+        "question_w8HFea",
+        "question_pxedtw"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -646,6 +774,7 @@
     "section_custom_content_CwdLQA",
     "section_timeline_scroll_zmGMfk",
     "section_double_Xef4Je",
-    "section_double_ggBjYj"
+    "section_double_ggBjYj",
+    "section_accordion_group_btyCef"
   ]
 }
