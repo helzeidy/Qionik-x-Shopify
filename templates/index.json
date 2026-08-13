@@ -91,6 +91,7 @@
         },
         "buttons_cb7jLr": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_text": "Learn more",
             "button_url": "",
@@ -177,7 +178,7 @@
         "flex_align_mobile": "align--middle-left-mobile",
         "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
         "show_text_background": false,
-        "overlay_type": "disabled",
+        "overlay_type": "text",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
