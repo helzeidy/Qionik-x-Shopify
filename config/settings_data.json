@@ -118,20 +118,20 @@
       },
       "scheme-e23b9f31-588f-4979-b31d-259015c439c7": {
         "settings": {
-          "section_text": "#151515",
-          "section_bg": "#f6f4f2",
+          "section_text": "#1C1C1C",
+          "section_bg": "#EFEFEF",
           "section_bg_light": "#ffffff",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#461214",
+          "btn_primary_bg": "#1C1C1C",
           "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#efe7e1",
-          "btn_secondary_bg": "#efe7e1",
-          "btn_secondary_text": "#461214",
-          "btn_secondary_border": "#efe7e1",
-          "accent": "#461214",
-          "lines_and_border": "#e4e4e4",
-          "overlay": "#1e0f131c",
-          "links": "#461214"
+          "btn_primary_border": "#1C1C1C",
+          "btn_secondary_bg": "#FFFFFF",
+          "btn_secondary_text": "#1C1C1C",
+          "btn_secondary_border": "#FFFFFF",
+          "accent": "#BF0000",
+          "lines_and_border": "#1C1C1C12",
+          "overlay": "#BF00001A",
+          "links": "#BF0000"
         }
       },
       "scheme-025a5426-514e-4a02-9e15-80cab8125ad9": {
