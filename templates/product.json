@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -31,7 +22,6 @@
         "variants": {
           "type": "variants",
           "settings": {
-            "info_page": "{{ product.metafields.custom.size_chart.value }}",
             "size_chart_style": "text",
             "option_font_size": "body-medium",
             "value_font_size": "body-x-small",
@@ -223,9 +213,6 @@
             "tab_label": "MATERIAL",
             "layout": "image_overlay",
             "subheading": "",
-            "heading": "{{ product.metafields.custom.material_headline.value }}",
-            "text": "<p>{{ product.metafields.accordion.leather_type_text | metafield_tag }}</p>",
-            "image": "{{ product.metafields.accordion.leather_type_image.value }}",
             "video_loop": false,
             "media_position": "left",
             "min_height": 500,
@@ -247,9 +234,6 @@
             "tab_label": "CONSTRUCTION",
             "layout": "image_overlay",
             "subheading": "",
-            "heading": "{{ product.metafields.custom.construction_headling.value }}",
-            "text": "<p>{{ product.metafields.accordion._sourcing_material_2nd_text | metafield_tag }}</p>",
-            "image": "{{ product.metafields.accordion._sourcing_material_2nd_image.value }}",
             "video_loop": false,
             "media_position": "left",
             "min_height": 500,
@@ -271,9 +255,6 @@
             "tab_label": "SOLE",
             "layout": "media_text",
             "subheading": "",
-            "heading": "{{ product.metafields.custom.sole_headline.value }}",
-            "text": "<p>{{ product.metafields.accordion._sourcing_material_3rd_text | metafield_tag }}</p>",
-            "image": "{{ product.metafields.accordion._sourcing_material_3rd_image.value }}",
             "video_loop": false,
             "media_position": "right",
             "min_height": 500,
@@ -295,9 +276,6 @@
             "tab_label": "SHOE LAST",
             "layout": "media_text",
             "subheading": "",
-            "heading": "{{ product.metafields.custom.shoe_last_headline.value }}",
-            "text": "<p>{{ product.metafields.custom.shoe_last | metafield_tag }}</p>",
-            "image": "{{ product.metafields.custom.shoe_last_image.value }}",
             "video_loop": false,
             "media_position": "right",
             "min_height": 500,
@@ -319,9 +297,6 @@
             "tab_label": "Made in Spain",
             "layout": "media_text",
             "subheading": "",
-            "heading": "{{ product.metafields.custom.made_in_spain_headline.value }}",
-            "text": "<p>{{ product.metafields.custom.made_in_spain | metafield_tag }}</p>",
-            "image": "{{ product.metafields.custom.made_in_spain_image.value }}",
             "video_loop": false,
             "media_position": "right",
             "min_height": 500,

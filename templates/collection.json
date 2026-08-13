@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
@@ -16,13 +7,11 @@
         "show_description": true,
         "description_max_width": 420,
         "show_breadcrumb": true,
-        "breadcrumb_collection": "{{ collection.metafields.custom.parent_collections.value }}",
         "flex_align": "align--middle-left",
         "color_scheme": "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408",
         "show_text_background": false,
         "overlay_type": "disabled",
         "show_image": true,
-        "custom_image": "{{ collection.metafields.custom.collection_main_banner.value }}",
         "banner_layout": "overlay",
         "height": "screen-height-one-third",
         "mobile_height": "two-fifty-height-hero--mobile",
@@ -80,7 +69,6 @@
         "heading_xgfk4f": {
           "type": "heading",
           "settings": {
-            "title": "{{ collection.metafields.custom.rich_text_title.value }}",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -89,7 +77,6 @@
         "text_q4pPkW": {
           "type": "text",
           "settings": {
-            "text": "{{ collection.metafields.custom.rich_text_content | metafield_tag }}",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
