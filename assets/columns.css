@@ -36,6 +36,15 @@ body.has-line-design.grid-compact .section-columns .grid--slider .grid-item {
   flex: 1 1 auto;
 }
 
+/* Applied only when an icon block sets a Background or Border color, so
+   blocks without them keep their original spacing. The border stays at 1px
+   transparent when no color is set, so adding one never shifts the layout. */
+.column__icon--boxed {
+  background: var(--column-icon-bg, transparent);
+  border: 1px solid var(--column-icon-border, transparent);
+  padding: var(--column-icon-padding, 24px);
+}
+
 .column__heading {
   color: var(--text);
   margin-top: 0;

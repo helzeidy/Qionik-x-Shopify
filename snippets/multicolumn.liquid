@@ -363,6 +363,24 @@
                 </div>
 
               {%- when 'icon' -%}
+                {%- liquid
+                  comment
+                    Background and border turn the column into a card. Only then
+                    is padding applied, so blocks with no colors set are
+                    untouched.
+                  endcomment
+                  assign icon_bg = block.settings.bg_color
+                  assign icon_border = block.settings.border_color
+
+                  assign is_boxed = false
+                  if icon_bg != blank and icon_bg.alpha != 0
+                    assign is_boxed = true
+                  endif
+                  if icon_border != blank and icon_border.alpha != 0
+                    assign is_boxed = true
+                  endif
+                -%}
+
                 {%- capture icon_style -%}
                   --icon-size: {{ icon_size }}px;
 
@@ -370,6 +388,18 @@
                     --icon-line-height: calc(1.2 * var(--font-{{ block.settings.heading_font_size }}));
                   {%- elsif text != blank-%}
                     --icon-line-height: calc(1.5 * var(--font-{{ block.settings.text_font_size }}));
+                  {%- endif -%}
+
+                  {%- if icon_bg != blank and icon_bg.alpha != 0 -%}
+                    --column-icon-bg: {{ icon_bg }};
+                  {%- endif -%}
+
+                  {%- if icon_border != blank and icon_border.alpha != 0 -%}
+                    --column-icon-border: {{ icon_border }};
+                  {%- endif -%}
+
+                  {%- if is_boxed -%}
+                    --column-icon-padding: {{ block.settings.box_padding | default: 24 }}px;
                   {%- endif -%}
                 {%- endcapture -%}
 
@@ -384,7 +414,7 @@
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
                     data-aos-order="{{ animation_order }}">
-                    <div class="column__icon {{ block.settings.icon_alignment | default: section.settings.icon_alignment }}" style="{{ icon_style }}">
+                    <div class="column__icon{% if is_boxed %} column__icon--boxed{% endif %} {{ block.settings.icon_alignment | default: section.settings.icon_alignment }}" style="{{ icon_style }}">
                       <div class="icon__animated{% if image != blank %} icon__animated--image{% endif %}">
                         {%- liquid
                           if image
