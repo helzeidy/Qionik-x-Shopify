@@ -22,6 +22,7 @@
     "body_letter_spacing": -25,
     "subheading_size_desktop": 16,
     "subheading_size_mobile": 12,
+    "subheading_color": "#BF0000",
     "type_header_font": "montserrat_n5",
     "heading_medium_mobile": 24,
     "heading_large_mobile": 32,
