@@ -87,38 +87,38 @@
     "color_schemes": {
       "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618": {
         "settings": {
-          "section_text": "#1C1C1C",
-          "section_bg": "#FFFFFF",
-          "section_bg_light": "#F6F6F6",
+          "section_text": "#1c1c1c",
+          "section_bg": "#ffffff",
+          "section_bg_light": "#f6f6f6",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#1C1C1C",
+          "btn_primary_bg": "#1c1c1c",
           "btn_primary_text": "#ffffff",
-          "btn_primary_border": "#FFFFFF",
-          "btn_secondary_bg": "#F6F6F6",
-          "btn_secondary_text": "#1C1C1C",
-          "btn_secondary_border": "#1C1C1C",
-          "accent": "#E40C0C",
-          "lines_and_border": "#1C1C1C1C",
-          "overlay": "#E40C0C1C",
-          "links": "#E40C0C"
+          "btn_primary_border": "#ffffff",
+          "btn_secondary_bg": "#f6f6f6",
+          "btn_secondary_text": "#1c1c1c",
+          "btn_secondary_border": "#1c1c1c",
+          "accent": "#e40c0c",
+          "lines_and_border": "#1c1c1c1c",
+          "overlay": "#e40c0c1c",
+          "links": "#e40c0c"
         }
       },
       "scheme-e56b258a-b428-48f9-b1c6-09db0a76b408": {
         "settings": {
           "section_text": "#ffffff",
-          "section_bg": "#1e0f13",
-          "section_bg_light": "#f5f2ec",
+          "section_bg": "#1C1C1C",
+          "section_bg_light": "#1C1C1CE6",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#ffffff",
-          "btn_primary_text": "#461214",
-          "btn_primary_border": "#461214",
-          "btn_secondary_bg": "#461214",
-          "btn_secondary_text": "#ffffff",
-          "btn_secondary_border": "#461214",
-          "accent": "#461214",
-          "lines_and_border": "#d1cdc4",
+          "btn_primary_bg": "#FFFFFF",
+          "btn_primary_text": "#1C1C1C",
+          "btn_primary_border": "#1C1C1C",
+          "btn_secondary_bg": "#1C1C1CE6",
+          "btn_secondary_text": "#FFFFFF",
+          "btn_secondary_border": "#1C1C1C",
+          "accent": "#E40C0C",
+          "lines_and_border": "#1C1C1CE6",
           "overlay": "#00000021",
-          "links": "#282c2e"
+          "links": "#E40C0C"
         }
       },
       "scheme-e91cab0e-1933-4c93-9241-b75f3ab20fa1": {
