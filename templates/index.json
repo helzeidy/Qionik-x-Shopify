@@ -191,9 +191,9 @@
             "subheading": "",
             "title": "Traditional Hair Masks",
             "heading_font_size": "heading-large",
-            "text": "<p>Temporary surface conditioning</p>",
+            "text": "<ul><li>Temporary surface conditioning</li><li>Heavy buildup over time</li><li>Limited conditioning where damage is greatest</li><li>Short-lived cosmetic results</li></ul>",
             "text_font_size": "body-medium",
-            "button_text": "Learn more",
+            "button_text": "",
             "button_url": "",
             "button_type": "btn--secondary",
             "button_size": "",
@@ -210,12 +210,55 @@
         "text_r7nBDL": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
-            "title": "Custom section",
+            "subheading": "",
+            "title": "QIONIK™ Ionic Renewal Technology",
             "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text": "<ul><li>Targets damaged areas through ionic conditioning</li><li>Helps reinforce weakened hair fibers</li><li>Smooths and seals the cuticle</li><li>Restores softness, shine and manageability</li></ul>",
             "text_font_size": "body-medium",
-            "button_text": "Learn more",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#EFEFEF",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_jQjzqn",
+        "text_r7nBDL"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "section_custom_content_7Hr7aB": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_earqEx": {
+          "type": "text",
+          "settings": {
+            "subheading": "02 — THE SCIENCE",
+            "title": "Intelligent Repair ThroughIonic Conditioning.",
+            "heading_font_size": "heading-large",
+            "text": "<p>Healthy hair relies on a smooth cuticle, balanced moisture,<br/>and a resilient internal structure. Chemical treatments,<br/>heat styling,  and environmental stress create negatively<br/>charged damaged sites along the hair fiber.<br/><br/>The QIONIK™ Ionic Renewal Complex™ combines advanced<br/>cationic conditioning technology with proteins, hydration actives,<br/>and botanical nutrients that preferentially<br/>deposit on these damaged areas. <br/><br/>This targeted conditioning helps smooth rough cuticles,<br/>improve moisture retention, reinforce weakened fibers,<br/>and restore healthy-looking hair after every treatment.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
@@ -228,11 +271,33 @@
             "color": "",
             "heading_tag": "automatic"
           }
+        },
+        "image_Ug3FkN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Artboard_10.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
-        "text_jQjzqn",
-        "text_r7nBDL"
+        "text_earqEx",
+        "image_Ug3FkN"
       ],
       "name": "Custom section",
       "settings": {
@@ -430,6 +495,7 @@
     "section_double_ALB37d",
     "section_hero_product_i6KxhK",
     "section_custom_content_dkgWH6",
+    "section_custom_content_7Hr7aB",
     "section_announcement_R7KWbe",
     "section_text_row_tzpdW9"
   ]
