@@ -182,6 +182,71 @@
         "show_placeholder": true
       }
     },
+    "section_custom_content_dkgWH6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_jQjzqn": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Traditional Hair Masks",
+            "heading_font_size": "heading-large",
+            "text": "<p>Temporary surface conditioning</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#1C1C1C",
+            "color": "#FFFFFF",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_r7nBDL": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Custom section",
+            "heading_font_size": "heading-large",
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_jQjzqn",
+        "text_r7nBDL"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "section_announcement_R7KWbe": {
       "type": "section-announcement",
       "blocks": {
@@ -364,6 +429,7 @@
     "section_slideshow_yADrDe",
     "section_double_ALB37d",
     "section_hero_product_i6KxhK",
+    "section_custom_content_dkgWH6",
     "section_announcement_R7KWbe",
     "section_text_row_tzpdW9"
   ]
