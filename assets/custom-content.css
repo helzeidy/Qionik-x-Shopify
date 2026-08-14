@@ -539,6 +539,14 @@ body.grid-compact.has-line-design .brick__block__collection .look__slide {
   padding: 0;
 }
 
+/* .brick__block__text is a flex row, so .hero__content sizes to its content:
+   the rows come out as wide as the longest question, and the width shifts when
+   a row opens and the answer is wider. Grow to fill so they stay full width in
+   either state. */
+.brick__block--accordion .hero__content {
+  flex-grow: 1;
+}
+
 /* Accordion group block. .accordion__title is a flex row with an absolutely
    positioned arrow, so the subheading and question stack inside this group. */
 .accordion__title-group {
