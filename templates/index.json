@@ -310,7 +310,7 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": true,
         "color_scheme": "",
-        "padding_top": 48,
+        "padding_top": 0,
         "padding_bottom": 48
       }
     },
@@ -419,8 +419,8 @@
         "align_columns": "flex-align-top",
         "layout_mobile": "slider",
         "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "heading_tag": "automatic"
       }
     },
@@ -449,32 +449,32 @@
             "heading_tag": "automatic"
           }
         },
-        "image_YgVyad": {
-          "type": "image",
+        "text_zWnwWp": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Vector.svg",
+            "subheading": "",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
             "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
+            "button_text": "",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
             "heading_tag": "automatic"
           }
         }
       },
       "block_order": [
         "text_aErVL4",
-        "image_YgVyad"
+        "text_zWnwWp"
       ],
       "name": "Custom section",
       "settings": {
@@ -485,7 +485,7 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": true,
         "color_scheme": "",
-        "padding_top": 48,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -550,8 +550,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": true,
         "color_scheme": "",
-        "padding_top": 48,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 48
       }
     },
     "section_custom_content_CwdLQA": {
