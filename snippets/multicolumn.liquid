@@ -127,6 +127,14 @@
     #{{ unique }} {
       {%- if section.settings.column_gap != blank -%}
         --column-gap: {{ section.settings.column_gap }}px;
+
+        {%- comment -%}
+          Flush columns draw two 1px borders on every shared edge. Overlap the
+          cards so it reads as one.
+        {%- endcomment -%}
+        {%- if section.settings.column_gap == 0 -%}
+          --column-box-overlap: -1px;
+        {%- endif -%}
       {%- endif -%}
 
       {%- if section.settings.row_gap != blank -%}

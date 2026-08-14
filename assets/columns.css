@@ -49,13 +49,40 @@ body.has-line-design.grid-compact .section-columns .grid--slider .grid-item {
   padding: var(--column-box-padding, 24px);
 }
 
-/* Equal heights. The grid items are flex children and already stretch to the
-   tallest in the row, so the card only has to fill the column it sits in.
-   Scoped to boxed cards, which are opt-in, so nothing else is affected. */
+/* Equal heights. Layout > Columns applies .flex-align-top / .flex-align-center,
+   which set align-items on the row and stop the columns stretching, so a
+   percentage height on the card has nothing to resolve against. Boxed cards
+   opt back into stretch and fill the column with flex instead. Scoped to boxed
+   cards, which are opt-in, so nothing else is affected. */
+.multicolumn .grid-item:has(.column__inner--boxed),
+.multicolumn .grid-item:has(.column__icon--boxed) {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.multicolumn .grid-item:has(.column__icon--boxed) .column__inner {
+  flex: 1 1 auto;
+}
+
 .column__inner--boxed,
-.column__inner:has(.column__icon--boxed),
 .column__icon--boxed {
-  height: 100%;
+  flex: 1 1 auto;
+}
+
+/* Now that the card is taller than its content, keep that content at the top
+   unless Layout > Columns is set to Centered. Needs to outrank
+   .column__inner:not(.frame) below, which centers it. */
+.multicolumn.flex-align-top .grid-item .column__inner--boxed {
+  justify-content: flex-start;
+}
+
+/* With no horizontal gap the columns sit flush and each shared edge draws two
+   1px borders. Pulling every card after the first back by 1px collapses that
+   into a single line. Only set when Horizontal gap is 0. */
+.multicolumn .grid-item + .grid-item .column__inner--boxed,
+.multicolumn .grid-item + .grid-item .column__icon--boxed {
+  margin-left: var(--column-box-overlap, 0px);
 }
 
 /* No color here on purpose: the .subheading class carries it, so these follow
