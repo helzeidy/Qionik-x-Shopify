@@ -116,6 +116,28 @@
 
     --COLUMNS-MOBILE: {{ columns_mobile }};
   }
+
+  {%- comment -%}
+    Desktop only, matching the media query that lays the columns out in a row.
+    Mobile keeps the theme's own spacing. Checked against blank rather than
+    defaulted, so a gap of 0 is honoured and sections that don't define these
+    settings fall through to --gap and --outer.
+  {%- endcomment -%}
+  @media only screen and (min-width: 750px) {
+    #{{ unique }} {
+      {%- if section.settings.column_gap != blank -%}
+        --column-gap: {{ section.settings.column_gap }}px;
+      {%- endif -%}
+
+      {%- if section.settings.row_gap != blank -%}
+        --row-gap: {{ section.settings.row_gap }}px;
+      {%- endif -%}
+
+      {%- if section.settings.outer_padding != blank -%}
+        --outer: {{ section.settings.outer_padding }}px;
+      {%- endif -%}
+    }
+  }
 {%- endstyle -%}
 
 <div

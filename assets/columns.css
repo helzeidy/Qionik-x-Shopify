@@ -10,15 +10,18 @@ body.has-line-design.grid-compact .section-columns .grid--slider .grid-item {
 }
 
 @media only screen and (min-width: 750px) {
+  /* Horizontal and vertical spacing were both driven by --gap. They now read
+     --column-gap / --row-gap when a section sets them, falling back to --gap
+     so every other section keeps its existing spacing. */
   .multicolumn {
-    --gap-offset: calc(var(--gap) / -2);
+    --gap-offset: calc(var(--column-gap, var(--gap)) / -2);
     display: flex;
     flex-flow: row wrap;
     gap: 0;
     margin: 0 var(--gap-offset);
   }
   .multicolumn .grid-item {
-    padding: var(--gap) calc(var(--gap) / 2);
+    padding: var(--row-gap, var(--gap)) calc(var(--column-gap, var(--gap)) / 2);
     flex: 0 0 var(--desktop-width);
   }
   .multicolumn .product-item--overlay-text .product-information {
@@ -44,6 +47,15 @@ body.has-line-design.grid-compact .section-columns .grid--slider .grid-item {
   background: var(--column-box-bg, transparent);
   border: 1px solid var(--column-box-border, transparent);
   padding: var(--column-box-padding, 24px);
+}
+
+/* Equal heights. The grid items are flex children and already stretch to the
+   tallest in the row, so the card only has to fill the column it sits in.
+   Scoped to boxed cards, which are opt-in, so nothing else is affected. */
+.column__inner--boxed,
+.column__inner:has(.column__icon--boxed),
+.column__icon--boxed {
+  height: 100%;
 }
 
 /* No color here on purpose: the .subheading class carries it, so these follow
