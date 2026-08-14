@@ -35,7 +35,7 @@
             "second_button_show_arrow": false,
             "flex_align_desktop": "align--middle-left-desktop",
             "mobile_image": "shopify://shop_images/hero-mobile.jpg",
-            "flex_align_mobile": "align--bottom-center-mobile",
+            "flex_align_mobile": "align--bottom-left-mobile",
             "show_text_background": false,
             "bg_color": "",
             "color": "",
@@ -56,7 +56,7 @@
         "width": "wrapper--full",
         "height": "screen-height-full",
         "content_width": 50,
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_height": "screen-height-full--mobile",
         "color_scheme": "scheme-b09bc568-df25-4c2a-a3e4-9a3aa7f72618",
         "padding_top": 0,
         "padding_bottom": 0
