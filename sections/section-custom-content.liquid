@@ -105,6 +105,14 @@
               animation_anchor: animation_anchor
             -%}
 
+          {%- when 'accordion' -%}
+            {%- render 'brick-accordion',
+              block: block,
+              style: style,
+              padding_class: padding_class,
+              animation_anchor: animation_anchor
+            -%}
+
           {%- when 'newsletter' -%}
             {%- render 'brick-newsletter',
               block: block,
@@ -752,6 +760,178 @@
             {"value": "text-left", "label": "Left"},
             {"value": "text-center", "label": "Centered"}
           ]
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "paragraph",
+          "content": "Overrides color scheme. Set to Transparent to revert back to using color schemes."
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background",
+          "alpha": true
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Text",
+          "alpha": true
+        },
+        {
+          "type": "header",
+          "content": "Advanced"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading SEO tag",
+          "default": "automatic",
+          "options": [
+            {"value": "automatic", "label": "Automatic"},
+            {"value": "h1", "label": "H1"},
+            {"value": "h2", "label": "H2"},
+            {"value": "h3", "label": "H3"},
+            {"value": "h4", "label": "H4"},
+            {"value": "h5", "label": "H5"},
+            {"value": "h6", "label": "H6"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "name": "Accordion group",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Frequently asked questions"
+        },
+        {
+          "type": "select",
+          "id": "heading_font_size",
+          "label": "Heading size",
+          "default": "heading-medium",
+          "options": [
+            {"value": "heading-mini", "label": "Mini"},
+            {"value": "heading-x-small", "label": "Extra small"},
+            {"value": "heading-small", "label": "Small"},
+            {"value": "heading-medium", "label": "Medium"},
+            {"value": "heading-large", "label": "Large"},
+            {"value": "heading-x-large", "label": "Extra large"}
+          ]
+        },
+        {
+          "type": "select",
+          "id": "question_font_size",
+          "label": "Question size",
+          "default": "heading-x-small",
+          "options": [
+            {"value": "heading-mini", "label": "Mini"},
+            {"value": "heading-x-small", "label": "Extra small"},
+            {"value": "heading-small", "label": "Small"},
+            {"value": "heading-medium", "label": "Medium"}
+          ]
+        },
+        {
+          "type": "select",
+          "id": "align_text",
+          "label": "Text alignment",
+          "default": "text-left",
+          "options": [
+            {"value": "text-left", "label": "Left"},
+            {"value": "text-center", "label": "Centered"}
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "open_first",
+          "label": "Open first row by default",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Rows"
+        },
+        {
+          "type": "paragraph",
+          "content": "Leave a question empty to hide that row."
+        },
+        {
+          "type": "text",
+          "id": "question_1",
+          "label": "Question 1",
+          "default": "Frequently asked question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer_1",
+          "label": "Answer 1",
+          "default": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+        },
+        {
+          "type": "text",
+          "id": "question_2",
+          "label": "Question 2"
+        },
+        {
+          "type": "richtext",
+          "id": "answer_2",
+          "label": "Answer 2"
+        },
+        {
+          "type": "text",
+          "id": "question_3",
+          "label": "Question 3"
+        },
+        {
+          "type": "richtext",
+          "id": "answer_3",
+          "label": "Answer 3"
+        },
+        {
+          "type": "text",
+          "id": "question_4",
+          "label": "Question 4"
+        },
+        {
+          "type": "richtext",
+          "id": "answer_4",
+          "label": "Answer 4"
+        },
+        {
+          "type": "text",
+          "id": "question_5",
+          "label": "Question 5"
+        },
+        {
+          "type": "richtext",
+          "id": "answer_5",
+          "label": "Answer 5"
+        },
+        {
+          "type": "text",
+          "id": "question_6",
+          "label": "Question 6"
+        },
+        {
+          "type": "richtext",
+          "id": "answer_6",
+          "label": "Answer 6"
         },
         {
           "type": "header",

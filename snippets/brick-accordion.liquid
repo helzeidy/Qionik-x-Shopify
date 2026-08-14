@@ -1,0 +1,122 @@
+{% comment %}
+  Renders an accordion group block for the custom content section
+
+  Rows are fixed settings rather than nested blocks: the custom content section
+  uses classic section blocks, which cannot contain child blocks, and one block
+  per question would put each question in its own column.
+
+  Accepts:
+  - block: {Object} Block object
+  - style: {String} Block inline style
+  - padding_class: {String} Set class "has-padding" if background colors of the block and the body are different
+  - animation_anchor: {String} ID of the element that will trigger animations
+
+  Usage:
+  {% render 'brick-accordion', block: block, style: style, padding_class: padding_class, animation_anchor: animation_anchor %}
+{% endcomment %}
+
+{%- liquid
+  assign subheading = block.settings.subheading
+  assign title = block.settings.title
+  assign animation_order = 0
+  assign animation_anchor = animation_anchor | default: ''
+  assign padding_class = padding_class | default: ''
+  assign rows = 6
+-%}
+
+<div
+  class="brick__block brick__block--accordion"
+  {% if style != blank %}
+    style="{{ style }}"
+  {% endif %}
+  {{ block.shopify_attributes }}
+>
+  <div class="brick__block__text{{ padding_class }}">
+    <div class="hero__content hero__content--compact {{ block.settings.align_text }}">
+      {%- if subheading != blank -%}
+        {%- assign animation_order = animation_order | plus: 1 -%}
+        <p
+          class="hero__subheading"
+          data-aos="hero"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-order="{{ animation_order }}"
+        >
+          {{ subheading }}
+        </p>
+      {%- endif -%}
+
+      {%- if title != blank -%}
+        {%- liquid
+          assign animation_order = animation_order | plus: 1
+          assign heading_tag = 'h2'
+
+          unless block.settings.heading_tag == 'automatic' or block.settings.heading_tag == blank
+            assign heading_tag = block.settings.heading_tag
+          endunless
+        -%}
+
+        <{{ heading_tag }}
+          class="hero__title {{ block.settings.heading_font_size }}"
+          data-aos="hero"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-order="{{ animation_order }}"
+        >
+          {{- title -}}
+        </{{ heading_tag }}>
+      {%- endif -%}
+
+      <collapsible-elements single="true">
+        <div class="accordion-group__items">
+          {%- for i in (1..rows) -%}
+            {%- liquid
+              assign question_key = 'question_' | append: i
+              assign answer_key = 'answer_' | append: i
+              assign question = block.settings[question_key]
+              assign answer = block.settings[answer_key]
+
+              assign is_open = false
+              if block.settings.open_first and i == 1
+                assign is_open = true
+              endif
+            -%}
+
+            {%- if question != blank -%}
+              {%- assign animation_order = animation_order | plus: 1 -%}
+              <details
+                class="accordion"
+                data-collapsible
+                {% if is_open %}
+                  open="true"
+                {% endif %}
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+              >
+                <summary
+                  class="accordion__title font-heading {{ block.settings.question_font_size }}"
+                  data-collapsible-trigger
+                >
+                  {{ question }}
+
+                  {%- render 'icon-nav-arrow-down' -%}
+                </summary>
+
+                <div
+                  class="accordion__body rte"
+                  {% if is_open %}
+                    style="height: auto;"
+                  {% endif %}
+                  data-collapsible-body
+                >
+                  <div class="accordion__content" data-collapsible-content>
+                    {{ answer }}
+                  </div>
+                </div>
+              </details>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </collapsible-elements>
+    </div>
+  </div>
+</div>
