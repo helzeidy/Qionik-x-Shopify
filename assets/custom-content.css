@@ -538,3 +538,17 @@ body.grid-compact.has-line-design .brick__block__collection .look__slide {
 .brick__block--products .grid-outer {
   padding: 0;
 }
+
+/* Accordion group block. .accordion__title is a flex row with an absolutely
+   positioned arrow, so the subheading and question stack inside this group. */
+.accordion__title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* No color here on purpose: the .subheading class carries it, so these follow
+   Typography > Subheadings > Color and the per-scheme Subheading color. */
+.accordion__subheading {
+  display: block;
+  margin-bottom: 4px;
+}

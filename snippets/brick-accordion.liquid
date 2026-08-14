@@ -71,8 +71,10 @@
             {%- liquid
               assign question_key = 'question_' | append: i
               assign answer_key = 'answer_' | append: i
+              assign row_subheading_key = 'subheading_' | append: i
               assign question = block.settings[question_key]
               assign answer = block.settings[answer_key]
+              assign row_subheading = block.settings[row_subheading_key]
 
               assign is_open = false
               if block.settings.open_first and i == 1
@@ -96,7 +98,18 @@
                   class="accordion__title font-heading {{ block.settings.question_font_size }}"
                   data-collapsible-trigger
                 >
-                  {{ question }}
+                  {%- comment -%}
+                    The arrow is absolutely positioned, so the summary's flex row
+                    holds only this group and the subheading stacks above the
+                    question without displacing it.
+                  {%- endcomment -%}
+                  <span class="accordion__title-group">
+                    {%- if row_subheading != blank -%}
+                      <span class="accordion__subheading subheading">{{ row_subheading }}</span>
+                    {%- endif -%}
+
+                    {{ question }}
+                  </span>
 
                   {%- render 'icon-nav-arrow-down' -%}
                 </summary>
