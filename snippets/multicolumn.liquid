@@ -190,6 +190,23 @@
               assign button_text = block.settings.button_text
               assign icon_color = block.settings.icon_color
               assign icon_size = block.settings.icon_size
+              assign subheading = block.settings.subheading
+
+              comment
+                A Background or Border color turns the column into a card. Only
+                then is padding applied, so blocks with neither set keep their
+                original spacing.
+              endcomment
+              assign box_bg = block.settings.bg_color
+              assign box_border = block.settings.border_color
+
+              assign is_boxed = false
+              if box_bg != blank and box_bg.alpha != 0
+                assign is_boxed = true
+              endif
+              if box_border != blank and box_border.alpha != 0
+                assign is_boxed = true
+              endif
 
               assign opacity_overlay = false
               assign text_underlay = false
@@ -254,6 +271,17 @@
 
                 if text_color.alpha != 0.0 and text_color != blank
                   echo ' --text: ' | append: text_color | append: ';'
+                endif
+
+                if is_boxed
+                  if box_bg != blank and box_bg.alpha != 0
+                    echo ' --column-box-bg: ' | append: box_bg | append: ';'
+                  endif
+                  if box_border != blank and box_border.alpha != 0
+                    echo ' --column-box-border: ' | append: box_border | append: ';'
+                  endif
+                  assign box_padding = block.settings.box_padding | default: 24
+                  echo ' --column-box-padding: ' | append: box_padding | append: 'px;'
                 endif
 
                 echo '"'
@@ -363,24 +391,6 @@
                 </div>
 
               {%- when 'icon' -%}
-                {%- liquid
-                  comment
-                    Background and border turn the column into a card. Only then
-                    is padding applied, so blocks with no colors set are
-                    untouched.
-                  endcomment
-                  assign icon_bg = block.settings.bg_color
-                  assign icon_border = block.settings.border_color
-
-                  assign is_boxed = false
-                  if icon_bg != blank and icon_bg.alpha != 0
-                    assign is_boxed = true
-                  endif
-                  if icon_border != blank and icon_border.alpha != 0
-                    assign is_boxed = true
-                  endif
-                -%}
-
                 {%- capture icon_style -%}
                   --icon-size: {{ icon_size }}px;
 
@@ -388,18 +398,6 @@
                     --icon-line-height: calc(1.2 * var(--font-{{ block.settings.heading_font_size }}));
                   {%- elsif text != blank-%}
                     --icon-line-height: calc(1.5 * var(--font-{{ block.settings.text_font_size }}));
-                  {%- endif -%}
-
-                  {%- if icon_bg != blank and icon_bg.alpha != 0 -%}
-                    --column-icon-bg: {{ icon_bg }};
-                  {%- endif -%}
-
-                  {%- if icon_border != blank and icon_border.alpha != 0 -%}
-                    --column-icon-border: {{ icon_border }};
-                  {%- endif -%}
-
-                  {%- if is_boxed -%}
-                    --column-icon-padding: {{ block.settings.box_padding | default: 24 }}px;
                   {%- endif -%}
                 {%- endcapture -%}
 
@@ -430,8 +428,12 @@
                         -%}
                       </div>
 
-                      {%- if title != blank or text != blank -%}
+                      {%- if subheading != blank or title != blank or text != blank -%}
                         <div class="column__content">
+                          {%- if subheading != blank -%}
+                            <p class="column__subheading subheading">{{ subheading }}</p>
+                          {%- endif -%}
+
                           {%- if title != blank -%}
                             {%- liquid
                               assign heading_tag = 'h2'
@@ -465,11 +467,15 @@
                   {% endif %}
                   {{ block.shopify_attributes }}
                 >
-                  <div class="column__inner"
+                  <div class="column__inner{% if is_boxed %} column__inner--boxed{% endif %}"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
                     data-aos-order="{{ animation_order }}">
                     <div class="column__content">
+                      {%- if subheading != blank -%}
+                        <p class="column__subheading subheading">{{ subheading }}</p>
+                      {%- endif -%}
+
                       {%- if title != blank -%}
                         {%- liquid
                           assign heading_tag = 'h2'

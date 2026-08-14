@@ -36,13 +36,20 @@ body.has-line-design.grid-compact .section-columns .grid--slider .grid-item {
   flex: 1 1 auto;
 }
 
-/* Applied only when an icon block sets a Background or Border color, so
-   blocks without them keep their original spacing. The border stays at 1px
+/* Applied only when a block sets a Background or Border color, so blocks
+   without them keep their original spacing. The border stays at 1px
    transparent when no color is set, so adding one never shifts the layout. */
-.column__icon--boxed {
-  background: var(--column-icon-bg, transparent);
-  border: 1px solid var(--column-icon-border, transparent);
-  padding: var(--column-icon-padding, 24px);
+.column__icon--boxed,
+.column__inner--boxed {
+  background: var(--column-box-bg, transparent);
+  border: 1px solid var(--column-box-border, transparent);
+  padding: var(--column-box-padding, 24px);
+}
+
+/* No color here on purpose: the .subheading class carries it, so these follow
+   Typography > Subheadings > Color and the per-scheme Subheading color. */
+.column__subheading {
+  margin: 0 0 5px;
 }
 
 .column__heading {
